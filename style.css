@@ -34,6 +34,7 @@ header{
 }
 .services{
     display: flex;
+    justify-content: space-between;
 }
 .services-container>h1>span{
     text-decoration: underline;

@@ -39,11 +39,15 @@ header{
 .services{
     display: flex;
     justify-content: space-between;
+    margin-left: 15vh;
 }
 .services-container{
     height: 70vh;
     background-image: url("images/fondservices.png");
     padding: 80px;
+}
+.services-container>h1>span{
+    margin-left: 15vh;
 }
 .services-contained{
     margin-top: 40px;
@@ -59,6 +63,7 @@ header{
 }
 .portfolio>.navbar{
     background-color: transparent;
+    margin-left: 15vh;
 }
 .portfolio>.container-img{
     width: 87%;
@@ -74,6 +79,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     background-color: dimgray;
+    padding-left: 15vh;
 }
 .default-section>.text-gauche{
     width: 50%;
@@ -91,6 +97,7 @@ header{
     padding: 6vh;
     background-image: url("images/fondservices.png");
     height: 30vh;
+    padding-left: 20vh;
 }
 .twitter>.navbar>.container-fluid{
     padding: 0;
@@ -108,4 +115,83 @@ header{
     padding: 6vh;
     height: 70vh;
     background-position: center;
+}
+.whoIsJoe span{
+    margin-left: 15vh;
+}
+.whoIsJoe .container-fluid{
+    padding: 0;
+}
+.whoIsJoe .container-p{
+    padding: 0;
+    width: 70vh;
+    margin-right: 15vh;
+    margin-left: 15vh;
+    margin-top: 5vh;
+}
+.whoIsJoe .container{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.images{
+    margin-top: 8vh;
+}
+.testimonials{
+    padding: 20vh;
+}
+.testimonials>nav{
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+}
+.testimonials .container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+.contact{
+    padding: 20vh;
+    background-color: dimgray;
+}
+.form-contact{
+    width: 100vh;
+}
+.contact-top{
+    display: flex;
+}
+.contact-top input{
+    margin-bottom: 5vh;
+}
+.contained-top.form-contact{
+    padding-right: 5vh;
+}
+.contained-top.contact-p{
+    padding-left: 5vh;
+    width: 100vh;
+}
+.submit-btn{
+    width: 30vh;
+    height: 5vh;
+    border: none;
+    background-color: deepskyblue;
+    margin-top: 5vh;
+    color: white;
+}
+footer{
+    padding-left: 10vh;
+    background-color: #4f4e4e;
+    padding-right: 10vh;
+}
+footer .navbar{
+    background-color: transparent;
+}
+footer .text{
+    display: flex;
+}
+footer .text>a{
+    margin-left: 1vh;
+}
+footer .rest{
+    margin-top: 2vh ;
 }
